@@ -35,3 +35,14 @@ CREATE TABLE `activity`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
+
+
+INSERT INTO `aisiex`.`admin_apis`(`id`, `controller`, `action`, `created_at`, `name_cn`) VALUES (213, 'activity', 'valid', '2019-03-08 15:00:35', NULL);
+INSERT INTO `aisiex`.`admin_apis`(`id`, `controller`, `action`, `created_at`, `name_cn`) VALUES (212, 'activity', 'update', '2019-03-08 15:00:20', NULL);
+INSERT INTO `aisiex`.`admin_apis`(`id`, `controller`, `action`, `created_at`, `name_cn`) VALUES (211, 'activity', 'show', '2019-03-08 15:00:11', NULL);
+INSERT INTO `aisiex`.`admin_apis`(`id`, `controller`, `action`, `created_at`, `name_cn`) VALUES (210, 'activity', 'create', '2019-03-08 15:00:01', NULL);
+INSERT INTO `aisiex`.`admin_apis`(`id`, `controller`, `action`, `created_at`, `name_cn`) VALUES (209, 'activity', 'list', '2019-03-08 14:59:45', NULL);
+
+
+
+INSERT INTO `aisiex`.`admin_menus`(`id`, `name_cn`, `url`, `parent_id`, `order_id`, `role_id`, `created_at`) VALUES (110, '活动管理', 'activity.html', 61, NULL, NULL, '2019-03-08 16:01:49');
