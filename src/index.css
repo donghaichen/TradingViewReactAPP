@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 10000;
+  font-family: sans-serif;
+}
+
+.layout__area--top{
+  display: none !important;
+}
